@@ -1,0 +1,43 @@
+# This is the main configuration file for the MkDocs website.
+# Use hash-comments to comment out pages have not been written
+# Reference: http://www.mkdocs.org/user-guide/configuration/
+#
+site_name: OWF Learn Software Development
+pages:
+- Home: index.md
+- What Job will the Software Do?:  software-job.md
+- Overview of Software Development:  overview.md
+- Development Environment Tools:
+  - Overview:  dev-env-tools/overview.md
+  - Operating System:  dev-env-tools/os.md
+  - Compiler:  dev-env-tools/compiler.md
+  - Text Editor:  dev-env-tools/editor.md
+  - IDE: dev-env-tools/ide.md
+  - Runtime Environment:  dev-env-tools/runtime.md
+  - Version Control:  dev-env-tools/version-control.md
+  - Documentation:  dev-env-tools/doc.md
+  - Logging:  dev-env-tools/logging.md
+  - Debugger:  dev-env-tools/debugger.md
+  - Test Framework:  dev-env-tools/test.md
+  - Installer:  dev-env-tools/installer.md
+- Development Environment by Language:
+  - Overview: dev-env-by-lang/overview.md
+  - Script (Linux/Bash):  dev-env-by-lang/bash.md
+  - Script (Windows/Batch File):  dev-env-by-lang/bat.md
+  - Script (Windows/PowerShell):  dev-env-by-lang/powershell.md
+  - C:  dev-env-by-lang/c.md
+  - 'C#':  dev-env-by-lang/csharp.md
+  - Fortran:  dev-env-by-lang/fortran.md
+  - Java:  dev-env-by-lang/java.md
+  - Python:  dev-env-by-lang/python.md
+  - Web (JavaScript):  dev-env-by-lang/web-javascript.md
+theme: readthedocs
+repo_url:  https://github.com/OpenWaterFoundation/owf-learn-software-dev
+site_description:  Open Water Foundation Learn Software Development training documentation
+site_author:  Open Water Foundation
+site_favicon:  OWF-Logo-Favicon-32x32.png
+copyright:  Copyright Open Water Foundation
+#extra_css:
+#- css/extra.css
+# Defaults to all JavaScript in the docs folder
+# extra_javascript:
