@@ -12,6 +12,7 @@ pages:
   - Operating System:  dev-env-tools/os.md
   - Compiler:  dev-env-tools/compiler.md
   - Text Editor:  dev-env-tools/editor.md
+  - Difference tool:  dev-env-tools/diff.md
   - IDE: dev-env-tools/ide.md
   - Runtime Environment:  dev-env-tools/runtime.md
   - Version Control:  dev-env-tools/version-control.md

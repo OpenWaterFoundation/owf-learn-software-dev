@@ -3,9 +3,11 @@
 Software development tools are the tools of the trade for software developers,
 and will vary depending on the programming language and target operating system:
 
-* Operating System - Windows, Linux, Cygwin, Mac OS X, virtual machines, etc. that provides core computer platform
+* Operating System - Windows, Cygwin, Linux, Mac OS X, either on a physical machine or run through a virtual machine, that provides the core computer platform
 * Compiler - software that converts source code into executable programs (only needed for some languages)
+* Interpreter - software that reads source code and executes it without compiling (only needed for some languages)
 * Text Editor - software that edits text files such as code and configuration files
+* Difference Tool - software that shows the difference between files
 * Interactive Developer Environment (IDE) - software that provides an integrated graphical user interface for software development
 * Runtime Environment - a runtime environment ("virtual machine" or interpreter that runs the software in the operating system),
 used by some languages like Java and .NET
@@ -13,7 +15,7 @@ used by some languages like Java and .NET
 * Debugger - software that helps inspect running programs for variable contents, etc.
 * Documentation - standards and software that creates developer documentation
 * Logging Framework - software that manages messages generated in the target software, useful for troubleshooting
-* Test Framework - software that allows the target software to be tested
+* Test Framework - software that tests the target software in a controlled and automated way, to consistently validate software against benchmarks
 * Installer - packaging the software for installation on the target operating system
 
 Some of the tools (such as compiler) are only used during software development and others
@@ -28,7 +30,7 @@ The selected approach will be defined by the software development project, its t
 A software developer environment that is distributed on a computer typically means that some components are re-used between
 software projects.  For example, software compiler, editor, version control software, etc. are installed in standard software locations:
 
-* Linux:  `/opt`, or `/usr`, for example
+* Linux:  `/opt` for custom installations, or `/usr` for package manager installations
 * Windows:  `C:\Program Files` or `C:\Program Files (x86)`
 
 The software is reused between software projects and typically does not change from project to project.
