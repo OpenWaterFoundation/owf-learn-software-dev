@@ -9,7 +9,7 @@ and will vary depending on the programming language and target operating system:
 * Interactive Developer Environment (IDE) - software that provides an integrated graphical user interface for software development
 * Runtime Environment - a runtime environment ("virtual machine" or interpreter that runs the software in the operating system),
 used by some languages like Java and .NET
-* Revision control - tools that track changes in files to facilitate finding bugs and versioning software
+* Version control - tools that track changes in files to facilitate finding bugs and versioning software
 * Debugger - software that helps inspect running programs for variable contents, etc.
 * Documentation - standards and software that creates developer documentation
 * Logging Framework - software that manages messages generated in the target software, useful for troubleshooting
@@ -26,7 +26,7 @@ The selected approach will be defined by the software development project, its t
 ## Location of Development Environment Tools on Computer - Distributed Environment
 
 A software developer environment that is distributed on a computer typically means that some components are re-used between
-software projects.  For example, software compiler, editor, revision control software, etc. are installed in standard software locations:
+software projects.  For example, software compiler, editor, version control software, etc. are installed in standard software locations:
 
 * Linux:  `/opt`, or `/usr`, for example
 * Windows:  `C:\Program Files` or `C:\Program Files (x86)`

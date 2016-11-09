@@ -110,9 +110,9 @@ In general, software should handle either case, for example:
 * when reading files, handle end of line character(s) from any operating system
 * be consistent in a file - write one or the other but don't mix
 
-The end of line character can complication [revision control](../dev-env-tools/revision-control/) because multiple software developers
+The end of line character can complication [version control](../dev-env-tools/version-control/) because multiple software developers
 using different operating systems for the development environment can introduce different line endings.
-There are conventions to minimize these issues, as described in the revision control section.
+There are conventions to minimize these issues, as described in the version control section.
 
 ## Command Shell
 
