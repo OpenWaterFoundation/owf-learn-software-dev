@@ -1,4 +1,4 @@
-# Software Development Environment Tools / Difference Tool
+# Development Environment Tools / Difference Tool
 
 It is very useful to be able to compare different versions of single files and folders of files,
 for example to understand how code has changed over time and between developers.

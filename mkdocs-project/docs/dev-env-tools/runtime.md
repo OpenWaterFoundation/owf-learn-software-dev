@@ -1,4 +1,4 @@
-# Software Development Environment Tools / Runtime Environment
+# Development Environment Tools / Runtime Environment
 
 Some programming languages rely on a runtime environment to run the software
 rather than using compiled executable programs that are run directly by the operating system.

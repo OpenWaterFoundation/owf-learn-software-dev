@@ -1,4 +1,4 @@
-# Software Development Environment Tools / Installer
+# Development Environment Tools / Installer
 
 Once software has been developed and tested, it must be packaged into a form that can be easily installed.
 The installation package may be simple or involved depending on the complexity of the software,

@@ -118,11 +118,27 @@ it may be appropriate to select a platform/framework that has already provided m
 In this case, the platform/framework may provide software patterns, domain-specific-language (macro language),
 or other features to make development easier.
 
+On the other hand, buying into a platform/framework means that changes in the platform/framework will require
+additional investment in the specific tool:
+
+* Moving a tool to a new version of the platform/framework will require effort to update code, test,
+update documentation, and build new installers
+* Staying at an older version of the platform/framework will limit the ability to use new features and
+security updates
+* Any change will require investment, including in some cases maintaining multiple versions of software
+during transition and because some installations cannot move forward
+
+The above complexity illustrates how software is like any other infrastructure.
+It must be maintained to continue doing the job that it was designed for...or investment in new solutions will occur
+(and good and bad disruptions due to implementing new software will occur).
+Ideally platform/framework features will be backward compatible,
+but sometimes a major change needs to occur and software developers will need to be updated accordingly.
+
 ## Open Source Software
 
 The Open Water Foundation is a proponent of open source software, but we also understand the reasons why proprietary software may have benefits.
 Ultimately, organizations must make money to pay for the products and services solutions they provide.
-Revisiting the question "What job will the software do?" will identify one or more open source and proprietary software programs.
+Revisiting the question "What job will the software do?" will typically identify one or more open source and proprietary software programs.
 The benefit of open source software and open standards is transparency to understand the context of the solution,
 being able to troubleshoot bugs, and, if the software is free, an ability to try a solution before investing a lot of resources.
 However, open source software may suffer from lack of resources if not sufficiently funded,
@@ -131,12 +147,23 @@ depending on the size of the developer community and leadership for the open sou
 It is also reasonable to expect that regardless of the cost and openness of the software,
 businesses may charge for support, training, and other professional services.
 
+An open source software project can increase its value and longevity if it provides quality software
+that is well-documented and undergoes updates at a reasonable pace.
+A lack of documentation will result in frustration and cause solution-seekers to look elsewhere.
+Updates that occur too frequently and negatively impact users of the software will also cause solution-seekers to look elsewhere.
+
+There is also a danger with any software solution to follow the "shiny object".
+The latest-greatest software technology may appear to be an attractive solution,
+but may ultimately prove to be unsustainable or have fatal flaws.
+As with any solution, care must be taken to evaluate a product and not just pick the first choice that appears in a Google search.
+
 This and other documentation created by OWF will refer to open source and proprietary software as appropriate,
-with a preference for open source software when such software can do the job.
+with a preference for well-maintained open source software when such software can do the job.
 
 ## Agile Methodology
 
-An agile methodology recognizes that spending a lot of time writing detailed requirements documents is problematic because it takes a lot of time,
+An [agile methodology](https://en.wikipedia.org/wiki/Agile_software_development) recognizes that spending a
+lot of time writing detailed requirements documents is problematic because it takes a lot of time,
 the requirements will never be complete, and they will change.  Instead, an agile approach defines high-level requirements based on user needs (user stories) and
 allows developers to work on the details of implementation.  Quite often, the requirements will change as the solution converges.
 An agile approach, when used by a software development team, can achieve rapid results.

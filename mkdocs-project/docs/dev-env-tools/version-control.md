@@ -1,4 +1,4 @@
-# Software Development Tools / Version Control
+# Development Environment Tools / Version Control
 
 Version control is very important in software development because it allows software developers to change code and
 have confidence that they can back up to a previous version if necessary.

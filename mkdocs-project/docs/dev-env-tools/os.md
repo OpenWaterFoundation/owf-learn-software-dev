@@ -1,4 +1,4 @@
-# Software Development Environment / Operating System
+# Development Environment Tools / Operating System
 
 The operating system is the software that interacts with hardware devices to provide the working environment
 for basic functions (saving files to hard disk, printing, networking, etc.) and provides a platform for other software.
@@ -140,4 +140,4 @@ meaning that the software can run on any operating system.
 This is accomplished in a runtime environment because the runtime environment does the work of
 wrapping the operating system to provide a standard software environment across operating systems.
 
-See the [documentation discussing runtime environments](../dev-env-tools/runtime-env/) for background.
+See the [documentation discussing runtime environments](../dev-env-tools/runtime/) for background.

@@ -1,4 +1,4 @@
-# Software development Environment Tools / Testing Framework
+# Development Environment Tools / Test Framework
 
 Automated testing is very important to ensure software functionality and quality.
 The basic approach for software testing is to run tests and compare current output with expected results.

@@ -1,4 +1,4 @@
-# Software Development Tools / Text Editor
+# Development Environment Tools / Text Editor
 
 A text editor is a software program that allows text files to be edited.
 Text files include software code, configuration files, and data files.
