@@ -1,4 +1,4 @@
-# Development Environment Tools / Installer
+# Development Environment Tools / Installer #
 
 Once software has been developed and tested, it must be packaged into a form that can be easily installed.
 The installation package may be simple or involved depending on the complexity of the software,
@@ -16,23 +16,23 @@ or, it may be appropriate to install multiple versions of the software to allow 
 
 It is common to provide a program or script to start the software.
 
-## Standard Software Installation Locations
+## Standard Software Installation Locations ##
 
 Need to discuss here standard installation locations based on operating system and language platform.
 
-## Windows:  Zip File
+## Windows:  Zip File ##
 
 A simple install approach for Windows is to use a zip file, such as created by the [7zip](https://en.wikipedia.org/wiki/7-Zip) software.
 Instructions should be provided describing where specifically the files should be installed.
 This will not create a menu or desktop shortcut.
 
-## Windows:  Installer
+## Windows:  Installer ##
 
 A more sophisticated approach is to create a software installer, for example using the [NSIS software](https://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System).
 
 Need to include more documentation.
 
-## Linux:  tar.gz file
+## Linux:  tar.gz file ##
 
 On Linux, software files can be packaged using the `tar` command.  For example use the following to create a tar.tz file and print filenames being processed:
 
@@ -40,6 +40,6 @@ On Linux, software files can be packaged using the `tar` command.  For example u
 $ tar -cvzf dist.tar.gz somefolder
 ```
 
-## Linux:  Installer
+## Linux:  Installer ##
 
 Need to discuss `apt-get` and other approaches, depending on Linux distribution.

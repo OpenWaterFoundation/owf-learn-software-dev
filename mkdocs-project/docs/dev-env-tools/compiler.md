@@ -1,4 +1,4 @@
-# Development Environment Tools / Compiler
+# Development Environment Tools / Compiler #
 
 Software generally falls into two categories:
 
@@ -7,7 +7,7 @@ Software generally falls into two categories:
 
 The choice of whether to use a compiler or interpreter will generally depend on the programming language that is chosen for the software being developed.
 
-## Compiled Software
+## Compiled Software ##
 
 A software compiler translates the software code, written using the syntax of a specific programming language,
 into executable programs that the computer can natively understand and run.
@@ -25,7 +25,7 @@ Many software compilers are now available free of charge, although some are comm
 The compiler that is chosen typically depends on the programming language.
 See the documentation sections that focus on programming language for more information.
 
-## Interpreted Software
+## Interpreted Software ##
 
 Interpreted software uses a runtime interpreter to run the software.
 Examples of interpreted languages include:
@@ -41,7 +41,7 @@ and there are trade-offs in robustness, security, etc.
 
 In the end, a software developer needs to evaluate whether an interpreted language approach is appropriate.
 
-## Software Systems
+## Software Systems ##
 
 Many software systems use a combination of compiled and interpreted software.
 Actually, an interpreter is a compiled program that knows how to interpret instructions.  Examples include:

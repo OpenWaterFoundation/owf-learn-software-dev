@@ -1,4 +1,4 @@
-# Development Environment Tools / Operating System
+# Development Environment Tools / Operating System #
 
 The operating system is the software that interacts with hardware devices to provide the working environment
 for basic functions (saving files to hard disk, printing, networking, etc.) and provides a platform for other software.
@@ -43,7 +43,7 @@ However, the requirements of each device has limited full portability.
 
 Software developers must decide which operating system(s) to support, which impacts choices in programming language and software tools.
 
-## Virtual Machines
+## Virtual Machines ##
 
 A [virtual machine (VM)](https://en.wikipedia.org/wiki/Virtual_machine) is a virtual (guest) operating system that runs on top of the host operating system.
 This allows software to be developed and run in a controlled operating system environment.
@@ -60,7 +60,7 @@ Examples of common virtual machine software include:
 Resources are required to install and configure VMs.  However, once the initial investment in learning is made, it is easy to scale VMs to nearly any task.
 Note that virtual machines may have a cost.  For example, Microsoft and Mac operating systems are not free to install, whereas Linux is often free.
 
-## Operating System Update Management
+## Operating System Update Management ##
 
 Each operating system (as well as many platforms) typically provides software to manage updates.
 This is required because the large number of software programs on a computer must be updated consistently to prevent conflicts in underlying libraries and dependencies.
@@ -75,7 +75,7 @@ and each distribution uses something similar
 Note that some of the above examples are for operating systems and some are for software languages.
 These tools will be discussed more in other sections of this documentation.
 
-## File Separator Differences
+## File Separator Differences ##
 
 The file separator is the character between folders and filenames:
 
@@ -85,7 +85,7 @@ The file separator is the character between folders and filenames:
 Windows also introduces drive letters such as `C:` in front of file paths.
 Software should be written to handle input generally so that the software can run on any operating system.
 
-## Path Separator Differences
+## Path Separator Differences ##
 
 The path separator is the character used to separate folder (directory) names in the `PATH` environment variable.
 The `PATH` environment variable is used to indicate folders to search for programs to run, when a program name is run in a command shell.
@@ -94,7 +94,7 @@ The following path separator character is used on various operating systems:
 * Windows:  `;` (semi-colon)
 * Linux-like:  `:` (colon)
 
-## Text File End of Line Differences
+## Text File End of Line Differences ##
 
 Operating systems differ in how they represent the [end of line (newline)](https://en.wikipedia.org/wiki/Newline) in text files:
 
@@ -114,7 +114,7 @@ The end of line character can complication [version control](../dev-env-tools/ve
 using different operating systems for the development environment can introduce different line endings.
 There are conventions to minimize these issues, as described in the version control section.
 
-## Command Shell
+## Command Shell ##
 
 A basic interface to an operating system is the command shell,
 which is a program that runs programs given the program name and command line parameters.
@@ -125,7 +125,7 @@ Command shells are discussed throughout this documentation.  Examples of command
 * Windows 7, 10:  `cmd.exe`
 * Linux, Cygwin:  `bash`
 
-## Runtime Environments
+## Runtime Environments ##
 
 Software is written for one or more operating systems, typically using standard libraries that interface to the operating system.
 It is often possible to write software that will run on multiple operating systems,

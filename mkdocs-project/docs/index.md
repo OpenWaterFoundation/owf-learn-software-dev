@@ -1,6 +1,6 @@
-# Open Water Foundation / Learn Software Development
+# Open Water Foundation / Learn Software Development #
 
-## Introduction
+## Introduction ##
 
 This documentation provides an overview of important software development concepts, with best practices
 and working examples.  The documentation has been created by the Open Water Foundation to facilitate our
@@ -26,7 +26,7 @@ Therefore, this documentation is an attempt at collecting good information.
 **This documentation is a work in progress and will contain notes for inserts for awhile until time can
 be devoted to filling in blanks.**
 
-## About the Open Water Foundation
+## About the Open Water Foundation ##
 
 The [Open Water Foundation](http://openwaterfoundation.org) is a 501(c)3 nonprofit social enterprise that focuses
 on developing and supporting open source software for water resources, so that organizations can make better decisions about water.
@@ -34,7 +34,7 @@ OWF has created this documentation to educate its staff and other developers tha
 
 See also other [OWF learning resources](http://learn.openwaterfoundation.org).
 
-## How to Use This Documentation
+## How to Use This Documentation ##
 
 The documentation is organized in the order of basic concepts and steps needed to develop software.
 As time allows, additional sections will be added for more advanced topics such as use of useful Python
@@ -43,7 +43,7 @@ API libraries for water resources.
 This documentation is not intended to be a full reference for the Fortran language but focuses on important topics that
 will help a Fortran programmer understand important technical concepts and be successful with software tools.
 
-## License
+## License ##
 
 The OWF Learn Software Development website content and examples are licenses under the
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0).
@@ -52,6 +52,7 @@ The OWF Learn Software Development website content and examples are licenses und
 
 The source files for this documentation are maintained in a GitHub repository:  [owf-learn-software-dev](https://github.com/OpenWaterFoundation/owf-learn-software-dev).
 
-## MkDocs
+## Release Notes ##
 
-This documentation is prepared using MkDocs.  For full MkDocs documentation visit [mkdocs.org](http://mkdocs.org/).
+This documentation was last updated 2017-10-21.
+See the [Release Notes in the GitHub Project](https://github.com/OpenWaterFoundation/owf-learn-software-dev#release-notes).

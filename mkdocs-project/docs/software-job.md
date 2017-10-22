@@ -1,4 +1,4 @@
-# What Job will the Software Do?
+# What Job will the Software Do? #
 
 Software programs perform a task, quite often one that a human could do themselves (like math, or drawing a picture),
 but the software can do the job faster, in a repeatable way, and work input and output can be saved in electronic form so that it can be shared and modified later.
@@ -20,7 +20,7 @@ And, before trying to develop a new program, most people will try to find an exi
 Perhaps more than one software program will be needed to do a job (such as creating a spreadsheet to analyze data,
 and then pasting the spreadsheet table into a document).
 
-## Use Cases and Requirements
+## Use Cases and Requirements ##
 
 Describing a job that software will do is often called a *use case*, *user story*, or simply *story*.
 In the past it was common that software requirements would be defined in a very detailed way ("the software shall do X"),
@@ -53,7 +53,7 @@ There is no single software program that does every job in the world and therefo
 software program's functionality, and integrate multiple software programs to do more complex jobs.
 The above constraints will provide general background for the software before digging into internals such as the programming language.
 
-## Buy or Build?
+## Buy or Build? ##
 
 Before developing new software, it is often useful to understand whether an existing software tool can do the job.
 Why spend time developing new software and deal with future maintenance costs of such software when existing software can do the job?
@@ -75,7 +75,7 @@ the more specialized the software is and the higher the incremental cost of that
 
 Assuming that the approach is to build new software (or add on to existing software), the following sections provide additional background.
 
-## The Concept of Platforms, Frameworks, and Open Specifications
+## The Concept of Platforms, Frameworks, and Open Specifications ##
 
 New software can be developed totally from scratch but seldom is.
 A software developer typically finds existing building blocks to use so that they don't have to create everything.
@@ -134,7 +134,7 @@ It must be maintained to continue doing the job that it was designed for...or in
 Ideally platform/framework features will be backward compatible,
 but sometimes a major change needs to occur and software developers will need to be updated accordingly.
 
-## Open Source Software
+## Open Source Software ##
 
 The Open Water Foundation is a proponent of open source software, but we also understand the reasons why proprietary software may have benefits.
 Ultimately, organizations must make money to pay for the products and services solutions they provide.
@@ -160,7 +160,7 @@ As with any solution, care must be taken to evaluate a product and not just pick
 This and other documentation created by OWF will refer to open source and proprietary software as appropriate,
 with a preference for well-maintained open source software when such software can do the job.
 
-## Agile Methodology
+## Agile Methodology ##
 
 An [agile methodology](https://en.wikipedia.org/wiki/Agile_software_development) recognizes that spending a
 lot of time writing detailed requirements documents is problematic because it takes a lot of time,

@@ -1,11 +1,11 @@
-# Development Environment Tools / Documentation
+# Development Environment Tools / Documentation #
 
 Software documentation tools for developers include:
 
 * tools to convert code comments to API documentation
 * tools to create formatted developer and user documentation
 
-## API Documentation
+## API Documentation ##
 
 Application programmer interface (API) documentation, which describes how to use code modules, can be created by:
 
@@ -21,7 +21,7 @@ Specific tools are discussed in the documentation sections for each language, bu
 
 Software developers should document their code and use these tools to generate API documentation, for use by their own team and other developers.
 
-## Developer and User  Documnentation
+## Developer and User Documentation ##
 
 Developer and user documentation, similar to this documentation, typically involve creating content of varying levels of detail to explain
 how to develop, and use software, respectively.

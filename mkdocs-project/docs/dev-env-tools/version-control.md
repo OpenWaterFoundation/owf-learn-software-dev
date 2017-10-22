@@ -1,4 +1,4 @@
-# Development Environment Tools / Version Control
+# Development Environment Tools / Version Control #
 
 Version control is very important in software development because it allows software developers to change code and
 have confidence that they can back up to a previous version if necessary.
@@ -14,7 +14,7 @@ Unfortunately, it can be difficult to do version control right unless the softwa
 One-person development teams can get away with basic version control,
 but each developer on a multi-person team must must be proficient and follow the version control approach adopted by the team.
 
-## Potential Issues
+## Potential Issues ##
 
 The following issues can arise when using version control systems:
 
@@ -32,13 +32,13 @@ Merge conflicts can be alleviated by adopting a workflow for version control.
 may accidentally be saved in a repository.  Version control systems have features to remove such files and
 add configuration to ignore certain files (see Git `.gitignore` file).
 
-## Simple File or Directory Copy
+## Simple File or Directory Copy ##
 
 The simplest form of version control is to create copies of files or directories, for example using a date or timestamp in the file/folder name. 
 This approach can be effective for simple software projects involving one software developer.
 However, it does not scale well when there are many files and multiple software developers involved.
 
-## Version Control Systems
+## Version Control Systems ##
 
 Version control systems keep track of files in a *repository*, which is typically a custom database using a file hierarchy and compression to keep the repository size small.
 The repository tracks revisions as an internal identifier (unique integer and/or hash string), and files in the repository are associated with a revision.
@@ -46,7 +46,7 @@ Different version control systems take different approaches.  For example, some 
 and others store the complete file each time there is a modification.
 Most systems use compression to minimize file size.
 
-## Distributed Version Control Systems
+## Distributed Version Control Systems ##
 
 Distributed version control systems have become popular recently due to a number of factors including the need to support
 distributed software development teams, the relatively low cost of disk storage, and the relatively high speed of the internet.

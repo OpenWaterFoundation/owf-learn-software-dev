@@ -1,4 +1,4 @@
-# Overview of Software Development
+# Overview of Software Development #
 
 A software development project requires a level of effort along a spectrum,
 depending on the required skills and technologies, and distribution of the software.
@@ -33,7 +33,7 @@ in particular topics relevant to the Open Water Foundation and development of so
 These topics will vary greatly depending on the chosen programming language and target operating system and computer devices.
 However, many concepts are the same or similar and are covered in this documentation.
 
-## Software Project File Organization
+## Software Project File Organization ##
 
 It is beneficial to organize software project files in a consistent way that recognizes common file content and work tasks.
 Every software developer has their own preferences for how to organize a software project;
@@ -60,7 +60,7 @@ All other files will need to be set up by the developer, although scripts may be
 Often setup involves creating top-level development folders and then checking out one or more Git repositories
 so that developer documentation can be reviewed locally, to help complete setup of the development environment.
 
-```
+```text
 $HOME/                                   (Developer's home folder /home/user on Linux/Cygwin, and C:/Users/user on Windows.)
   org-dev                                (Top-level folder indicating where development projects will live, where
                                           "org" indicates the organization associated with the project.
@@ -89,7 +89,34 @@ $HOME/                                   (Developer's home folder /home/user on 
         software2/                        or a local install is needed to isolate from the operating system.)
          
 ```
+
 The above file structure is illustrated with [specific examples for different languages](dev-env-by-lang/overview/).
+An example for an Open Water Foundation Java REST web service application using Tomcat server and Eclipse IDE is as follows:
+
+```text
+$HOME/                                   (Developer's home folder /home/user on Linux/Cygwin, and C:/Users/user on Windows.)
+  owf-dev                                (Top-level folder indicating where development projects will live)
+    SomeDatabaseREST/                    (Folder containing project development files.)
+      bin/                               (Folder containing scripts such as start-up script for IDE,
+        scripts, etc.
+                                          to ensure that proper development software versions are used.)
+      eclipse-workspace/                 (Folder used by IDE workspace, when not appropriate for in Git repository.
+                                          For example, the Eclipse IDE creates a .metadata folder under the workspace folder that
+                                          is not generally suitable for storage in the repository because dynamic
+                                          files will vary by developer.)
+      git-repos/                         (Git repositories that contain files used in the software project.  Run the following here:
+        repo-1-name/                      git clone https://pathToRepo.git
+        repo-2-name/                      where the path to the repository is provided by GitHub, Bitbucket, etc.)
+          README.md                      (Standard repository readme Markdown file explaining content and setup.)
+          .gitignore                     (Git configuration file to ignore files that should not be in repository)
+          .gitattributes                 (Git configuration file to configure repository, such as end-of-line handling.)
+          mkdocs-project                 (If project is only documentation and MkDocs is used to create static website.)
+          doc-dev-mkdocs-project         (Use for developer documentation created with MkDocs.)
+          doc-user-mkdocs-project        (Use for user documentation created with MkDocs.)
+      tools/                             (Software installed in the development files.
+        tomcat8/
+         
+```
 
 If everyone on the developer team uses a file structure as documented for the software project,
 then relevant documentation can be created and used as a reference.
@@ -98,7 +125,7 @@ for example in cases where multiple languages and tools are used.
 The above example does not explore complex projects but assumes that a single primary software language is used.
 The best way to understand project file structure is to examine good working projects.
 
-## Next Steps
+## Next Steps ##
 
 The next sections of this documentation describe how to install software development tools,
 and how to use a file structure such as above to create a development environment for a software project.
