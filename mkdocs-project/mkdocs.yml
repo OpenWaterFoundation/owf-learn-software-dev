@@ -32,7 +32,7 @@ pages:
   - Java:  dev-env-by-lang/java.md
   - Python:  dev-env-by-lang/python.md
   - Web (JavaScript):  dev-env-by-lang/web-javascript.md
-- Resources: resources.md
+#- Resources: resources.md
 # ------- configuration properties ---------------
 # Use Material theme
 # - installation notes:  https://github.com/squidfunk/mkdocs-material
