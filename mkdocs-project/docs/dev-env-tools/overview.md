@@ -1,4 +1,4 @@
-# Development Environment Tools / Overview
+# Development Environment Tools / Overview #
 
 Software development tools are the tools of the trade for software developers,
 and will vary depending on the programming language and target operating system.
@@ -47,7 +47,7 @@ Software tools are generally installed in one of three locations, which are each
 
 A software development project often uses software tools installed in multiple locations.
 
-## Install Development Tools in Standard Location on Operating System
+## Install Development Tools in Standard Location on Operating System ##
 
 It is often appropriate to install software development tools in standard locations on the operating system,
 in particular when the tools do not need to be changed after installation.
@@ -71,7 +71,7 @@ be overcome by using a script to run the proper version
 * There is less control within a project over what software is used by the project;
 however, this can be controlled through configuration, scripts to run tools, etc.
 
-### Linux
+### Linux ###
 
 Linux distributions are often managed with tools like `apt-get`, which simplifies installing software and dependencies.
 Software tools can be researched to determine whether a needed version is available on the target operating system.
@@ -83,19 +83,19 @@ The latest installation that is run may reset the default to that version, for e
 However, it is often possible to run a specific version by determining the location where files are actually installed
 and bypassing the default symbolic link.
 
-### Cygwin
+### Cygwin ###
 
 [Cygwin](https://cygwin.com/index.html) uses its own installation manager.
 Software selected to install typically installs the latest version,
 although some software includes the version number and manual installation of tools can occur,
 separately from the Cygwin installer.
 
-### Windows
+### Windows ###
 
 Most software programs have defaults that install into `C:\Program Files` (64-bit), `C:\Program Files (x86)` (32-bit), or
 another location (e.g., Python installs into `C:\Python27` or `C:\Python35`).
 
-## Install Development Tools in Custom Location on Operating System
+## Install Development Tools in Custom Location on Operating System ##
 
 It may be appropriate to install software in a custom location on the operating system,
 for example in the case where a standard installer is not available and/or it is desirable to install a version
@@ -104,16 +104,16 @@ separately from the latest official release.
 The path to the software executable may not be automatically added to the `PATH` environment
 variable and therefor running the software may require a script or selecting the executable by full path.
 
-### Linux and Cygwin
+### Linux and Cygwin ###
 
 A typical custom installation location is `/opt`.
 Such installs are typically done as the root user and cannot be updated by a normal user.
 
-### Windows
+### Windows ###
 
 Similar to Python, it may be appropriate to install software in `C:\SomeFolder`.
 
-## Install Development Tools in Development Files
+## Install Development Tools in Development Files ##
 
 It may be desirable or necessary to install a development tool in the development files.
 If following the [general template file structure](../overview#software-project-file-organization),

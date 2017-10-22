@@ -1,4 +1,4 @@
-# Development Environment Tools / Test Framework
+# Development Environment Tools / Test Framework #
 
 Automated testing is very important to ensure software functionality and quality.
 The basic approach for software testing is to run tests and compare current output with expected results.
@@ -6,7 +6,7 @@ The basic approach for software testing is to run tests and compare current outp
 Each programming language and software development environment provides tools for testing.
 Additional detail is provided in the language-specific sections of this documentation.
 
-# Unit Testing
+# Unit Testing #
 
 [Unit testing](https://en.wikipedia.org/wiki/Unit_testing) is typically implemented within the development environment and directly calls software routines.
 For example, a function is called to generate output, which is compared to the expected output.
@@ -14,7 +14,7 @@ Unit tests typically use a testing library with basic building blocks for testin
 
 Unit testing is typically performed by the software developer and in automated tests before shipping software.
 
-# Functional Testing
+# Functional Testing #
 
 [Functional testing](https://en.wikipedia.org/wiki/Functional_testing) involves running installed software to ensure that functionality is as expected.
 An approach similar to unit testing can be taken.

@@ -1,4 +1,4 @@
-# Development Environment Tools / Runtime Environment
+# Development Environment Tools / Runtime Environment #
 
 Some programming languages rely on a runtime environment to run the software
 rather than using compiled executable programs that are run directly by the operating system.
@@ -9,7 +9,7 @@ Runtime environment types include:
 
 The following sections describe each.
 
-## Interpreter
+## Interpreter ##
 
 Interpreters are used to run software code that is written in text form and not compiled,
 sometimes referred to as scripts.

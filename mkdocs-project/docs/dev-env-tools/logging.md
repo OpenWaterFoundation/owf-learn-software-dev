@@ -1,4 +1,4 @@
-# Development Environment Tools / Logging
+# Development Environment Tools / Logging #
 
 Logging is software feature that may be built into a programming language or is provided as an add-on library.
 Logging allows warning, status, debug, and information messages (and perhaps others) to be generated in software and output to controlled locations.

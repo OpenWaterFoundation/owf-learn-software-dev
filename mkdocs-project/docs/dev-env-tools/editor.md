@@ -1,4 +1,4 @@
-# Development Environment Tools / Text Editor
+# Development Environment Tools / Text Editor #
 
 A text editor is a software program that allows text files to be edited.
 Text files include software code, configuration files, and data files.
@@ -35,7 +35,7 @@ On Windows the editor may be set by associating an editor program with a file ex
 * Revision control software may have a configuration variable to specify the editor to use for editing, beyond the operating system default.
 For example, for Git, the editor used to edit commit messages, etc. is set using `git config --global core.editor editorProgram`.
 
-## Terminal Editors
+## Terminal Editors ##
 
 Terminal editors use a normal terminal/console window, such as a Linux terminal window or Windows command shell window to edit a file.
 Keyboard keys are used to navigate the file and perform editing actions.
@@ -58,7 +58,7 @@ Disadvantages are:
 
 The following sections discuss useful terminal editors.
 
-### vi or vim
+### vi or vim ###
 
 The `vi` editor is a popular editor originally developed on Linux.  The newer [`vim` (Vi IMproved) editor](https://en.wikipedia.org/wiki/Vim_(text_editor)) is a newer version that
 has a command-line (terminal) version and graphical version.
@@ -68,6 +68,11 @@ See the following resources to learn `vim` although there are many available onl
 
 * [Vim official website](http://www.vim.org/)
 * [A Great Vim Cheat Sheet](http://vimsheet.com/)
+
+Useful `vim` command line options:
+
+* `vim -b filename` - use to edit in binary mode, which will display control characters,
+useful to see if end of line has `^M` indicating carriage return
 
 A `.vimrc` file can be created in the user's home folder to control common behavior of the editor.
 These settings can also be set when editing a file by using a colon (`:`) before the setting shown below,
@@ -84,16 +89,16 @@ Setting example | Description
 
 `vim` editor features may be offered in other editors and IDEs, to facilitate software developers that prefer to use `vim` key combinations.
 
-### emacs Editor
+### emacs Editor ###
 
 [Emacs](https://en.wikipedia.org/wiki/Emacs) is another popular editor.
 In contrast to the `vim` editor, `emacs` uses more Ctrl-, Alt- keyboard combinations.
 
-### Nano Editor
+### Nano Editor ###
 
 See: [Nano](https://en.wikipedia.org/wiki/GNU_nano).
 
-## Graphical User Interface Editors
+## Graphical User Interface Editors ###
 
 Graphical user interface editors provide editing in an interactive window that responds to mouse events, scrolling, etc.
 These editors provide *what you see is what you get* (WYSIWYG) editing.
@@ -110,13 +115,14 @@ Some useful graphical editors are:
 * [Sublime Text](https://en.wikipedia.org/wiki/Sublime_Text)
 
 
-## Integrated Development Environments
+## Integrated Development Environments ##
 
 IDEs are discussed in a [separate section](../dev-env-tools/ide/).
 
 IDEs typically provide graphical user interface editors.
 Plugins may be available to emulate the behavior of specific editors,
-for example the [Vrapper plugin for Eclipse](http://vrapper.sourceforge.net/home/).
+for example the [Vrapper plugin for Eclipse](http://vrapper.sourceforge.net/home/)
+(first-hand experience with Vrapper has shown mixed success).
 
 Selecting an IDE is usually a more serious choice than selecting an editor and the software developer may
 just need to learn to use the IDE editor rather than trying to customize or use their favorite text editor.

@@ -1,4 +1,4 @@
-# Development Environment Tools / Debugger
+# Development Environment Tools / Debugger #
 
 A debugger is a software tool that allows the software developer to place breakpoints in software code and observe the program's memory.
 For example, a breakpoint can be set before code that is known to have a bug, and then variable values can be watched as the program
